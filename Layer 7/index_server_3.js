@@ -1,5 +1,5 @@
 const app = require('express')();
-const port = process.env.PORT || 4444;
+const port = process.env.PORT || 6666;
 
 app.get('/*', (req, res) => {
 	res.send(`Served by ${port}`);
